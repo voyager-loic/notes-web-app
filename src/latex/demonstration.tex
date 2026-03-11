@@ -1,0 +1,100 @@
+\documentclass[a4paper,12pt,twoside]{article}
+
+
+\usepackage{graphicx}
+\usepackage[procnames]{listings}
+\usepackage{xcolor}
+\usepackage{geometry}
+\geometry{
+    a4paper, 
+    left=25mm,
+	top=25mm,
+	textwidth=16cm,
+	textheight=23cm
+}
+\usepackage{siunitx} 
+\usepackage{amsmath,amssymb}
+\usepackage{datetime} 
+\usepackage{color}
+\usepackage{float}
+\usepackage{mathptmx}
+\usepackage{enumitem}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lipsum}
+\usepackage{setspace}
+\setstretch{1.5}
+\usepackage{hyperref} 
+\usepackage{adjustbox}
+\usepackage{shellesc}
+
+
+\begin{document}
+
+
+
+\input{latex/title.tex}
+
+\pagenumbering{roman}
+\newpage
+
+\tableofcontents
+
+\pagenumbering{arabic}
+
+\parindent=0pt
+\parskip=6pt
+
+\newpage
+
+
+\section{Sections} \subsection{Subsections} \subsubsection{Subsubsections}
+
+\par
+
+\textit{Italic}
+
+\par
+
+\textbf{Bold}
+
+\par
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget sem sed elit cursus pellentesque. Sed vel ante lectus. Cras a velit mattis, imperdiet massa vel, condimentum nisi. Mauris eu ipsum ac massa convallis ornare eu non elit. Pellentesque interdum ipsum in arcu malesuada imperdiet. Aenean tempor, neque in luctus sollicitudin, sapien lacus ultrices purus, at tempor dui arcu eu dolor. Aenean eleifend neque et tincidunt porttitor. Proin mauris ligula, mattis vel arcu sit amet, blandit vehicula metus. Fusce sapien mi, iaculis vel lectus id, lobortis mollis est. Proin laoreet fringilla metus at posuere. Ut blandit velit rutrum mi facilisis ultrices. Aenean dapibus massa et dui dictum, euismod tincidunt ligula accumsan. Sed non tincidunt risus.
+
+\par
+
+Aenean porta neque non sem condimentum, ut hendrerit ante lacinia. Nunc non elit non purus placerat venenatis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum diam a ligula eleifend malesuada. Suspendisse nulla diam, tempus ut ipsum et, vulputate sollicitudin ante. Nulla vel dolor leo. Quisque tempor aliquam ex, et tempor nibh. Vivamus semper arcu bibendum, consequat nunc et, pharetra nisl. Donec metus sem, ullamcorper pharetra egestas eu, accumsan eget ipsum. Maecenas placerat, neque vel finibus maximus, turpis augue ornare tellus, eu interdum risus neque non ipsum. Vivamus euismod nulla a volutpat pharetra. Cras ut porta odio, non hendrerit elit. Etiam nec posuere urna. Mauris eros metus, aliquam vitae risus sed, tincidunt laoreet sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut vitae erat dapibus, finibus leo ac, scelerisque sem.
+
+\par
+
+\newpage \section{Lists}
+
+\par
+
+\begin{itemize}
+
+\par
+
+\item 1 \item 2 \item 3             \end{itemize}
+
+\par
+
+\begin{enumerate}
+
+\par
+
+\item Cow \item Cat \item Capitan             \end{enumerate}
+
+\par
+
+\newpage
+
+\par
+
+\section{Formulas}
+
+\par
+
+$$f(z) = \left\{ \begin{array}{rcl} \overline{\overline{z^2}+\cos z} & \mbox{for} & |z|<3 \\ 0 & \mbox{for} & 3\leq|z|\leq5 \\ \sin\overline{z} & \mbox{for} & |z|>5 \end{array}\right.$$
+\end{document}
